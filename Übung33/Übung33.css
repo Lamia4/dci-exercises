@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul> li {
+    display: inline;
+    
+}
+
+ul {
+    text-align: right;
+    
+}
+
+div {
+    width: 49%;
+    height: 100vh;
+    border: 2px solid;
+    
+}
+
+.text {
+    padding-top: 300px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 10px;
+    left: 280px;
+}
+.image {
+    float: left;
+    background-image: url(./Übung33.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.haupttext {
+    float: left;
+}

@@ -1,0 +1,32 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 20px;
+    margin-top: 100px;
+    position: relative;
+    float: left;
+  }
+  .withdaire::before {
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .withucgen::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -26px;
+    width: 0;
+    height: 0;
+    transform: translate(-50%);
+    border-right: 26px solid transparent;
+    border-bottom: 26px solid yellow;
+    border-left:transparent solid 26px;
+  }

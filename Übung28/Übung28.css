@@ -1,0 +1,31 @@
+.fake-box {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 100px;
+}
+
+.fake-box:before,
+.fake-box:after {
+    position: absolute;
+    content:"";
+    width: 300px;
+    height: 300px;
+    display: block;
+    border: 2px solid black;
+}
+
+.fake-box:after {
+    left: 20px;
+    top: 20px;
+}
+
+.info-box {
+    border: 2px solid black;
+    width: 25%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: 2px 2px 1px 2px;
+}

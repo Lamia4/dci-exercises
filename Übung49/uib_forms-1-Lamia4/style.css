@@ -1,0 +1,17 @@
+
+
+.form1 {
+    width: 45%;
+}
+
+.form1 input {
+    /* width: auto; */
+}
+
+label, input {
+    /* float: left; */
+}
+
+label {
+    width: 100%;
+}

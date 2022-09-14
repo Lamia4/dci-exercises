@@ -1,0 +1,113 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+$small: 20px;
+$gelb: yellow;
+$pink: pink;
+$blau: blue;
+$purple: purple;
+$breakpointdesktop: 720px;
+
+@mixin header1 {
+    margin-top: $small;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    @include header1();
+}
+
+.color-container {
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid rgb(90, 90, 90);
+
+    .color{
+        height: 200px;
+    }
+    .yellow {
+        background-color: $gelb;
+    }
+    .pink {
+        background-color: $pink;
+    }
+    .blue {
+        background-color: $blau;
+    }
+    .purple {
+        background-color: $purple;
+    }
+    .hex {
+        padding: 10px;
+        font-size: $small;
+    }
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .color-container {
+            flex-basis: 250px;
+            margin: 10px;
+
+            .color-drei {
+                display: flex;
+                flex-direction: row;
+
+                .color {
+                    flex-grow: 1;
+                    
+                }
+
+                .yellow {
+                    background-color: $gelb;
+                }
+                .yellow-dark {
+                    background-color: rgb(206, 206, 2);
+                }
+                .yellow-licht {
+                    background-color: rgb(255, 255, 166);
+                }
+
+                .pink {
+                    background-color: $pink;
+                }
+                .pink-dark {
+                    background-color: rgb(206, 2, 172);
+                }
+                .pink-licht {
+                    background-color: rgb(255, 166, 251);
+                }
+
+                .blue {
+                    background-color: $blau;
+                }
+                .blue-dark {
+                    background-color: rgb(2, 22, 206);
+                }
+                .blue-licht {
+                    background-color: rgb(166, 230, 255);
+                }
+
+                .purple {
+                    background-color: $purple;
+                }
+                .purple-dark {
+                    background-color: rgb(165, 2, 206);
+                }
+                .purple-licht {
+                    background-color: rgb(255, 166, 243);
+                }
+            }
+        }
+    }
+}

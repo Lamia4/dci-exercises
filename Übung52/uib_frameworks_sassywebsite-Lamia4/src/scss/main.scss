@@ -1,0 +1,55 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$space-around: 20px;
+$small-margin: 0 30px;
+$color-green: rgb(95, 202, 95);
+
+nav {
+    ul {
+        @media (max-width:680px) {
+            justify-content: center;
+        }
+        li {
+            margin: $small-margin;
+        }
+    }
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 40vh;
+    h2 {
+         padding: $space-around;
+     }
+    
+}
+
+@mixin black-border {
+            padding: $space-around;
+            margin-top: 20px;
+}
+
+main {
+
+    @for $i from 1 through 3 {
+        .card:nth-child(#{$i}) {
+                background: $color-green;
+                .card {
+                    margin: 30px 20px;
+                    background: $color-green;
+                }
+                margin: 30px 15px;
+            }
+        }
+
+    
+div {
+
+        img {
+            @include black-border;
+        }
+    }
+
+}

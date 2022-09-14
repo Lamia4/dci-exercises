@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Data Exercises - Form 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Forms</h2>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="firstnameField"><strong>First name:</strong>
+                <input type="text" id="firstnameField" name="firstname">
+            </label>
+
+            <label for="lastnameField"><strong>Last name:</strong>
+                <input type="text" id="lastnameField" name="lastname">
+            </label>
+
+            <label for="streetField"><strong>Street:</strong>
+                <input type="text" id="streetField" name="street">
+            </label>
+
+            <label for="zipcodeField"><strong>Zipcode:</strong>
+                <input type="number" id="zipcodeField" name="zipcode">
+            </label>
+
+            <label for="cityField"><strong>City:</strong>
+                <input type="text" id="cityField" name="city">
+            </label>
+
+            <label for="phoneField"><strong>Phone:</strong>
+                <input type="number" id="phoneField" name="phone">
+            </label>
+
+            <label for="emailField"><strong>Email:</strong>
+                <input type="email" id="emailField" name="email">
+            </label>
+
+            <label for="commentsField"><strong>Comments:</strong>
+                <textarea name="comment" id="commentsField" cols="30" rows="10"
+                    placeholder="Galip ist ein schicker Mann."></textarea>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Products</legend>
+            <h3>Web Design</h3>
+            <label for="webdesignField">
+                <input type="radio" id="webdesignField" name="" class="inline">Individual
+            </label>
+
+            <label for="webdesignField">
+                <input type="radio" id="webdesignField" name="" class="inline">Template
+            </label>
+
+            <h3>Web Development:</h3>
+            <label for="webdevelopmentField">
+                <input type="checkbox" id="webdevelopmentField" name="html_css" class="inline"> HTML & CSS
+            </label>
+            <br>
+
+            <label for="webdevelopmentField">
+                <input type="checkbox" id="webdevelopmentField" name="javascprit" class="inline"> JavaScript
+            </label>
+            <br>
+            <label for="webdevelopmentField">
+                <input type="checkbox" id="webdevelopmentField" name="mongodb" class="inline"> MongoDB
+            </label>
+
+            <h3>Project Start:</h3>
+            <label for="startdateField">
+                <input type="date" id="startdateField" name="projectstart">
+            </label>
+
+            <h3>Project End:</h3>
+            <label for="startdateField">
+                <input type="date" id="startdateField" name="projectend">
+            </label>
+
+            <h3>Category:</h3>
+            <label for="categoryField">
+                <select name="category" id="categoryField">
+                    <option value="personal">Personal</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </fieldset>
+        <button>Order our services</button>
+    </form>
+
+</body>
+
+</html>

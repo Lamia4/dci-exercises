@@ -1,0 +1,27 @@
+p {
+  columns: 4;
+  column-gap: 50px;
+  column-rule: 3px dotted grey;
+}
+ h1, h2 {
+   text-align: center;
+ }
+ p[lang="la"]{
+    text-align: justify;
+
+ }
+ p[lang="ar"]{
+  text-align: right;
+  direction: rtl;
+}
+p[lang="en"]{
+  text-align: center;
+
+}
+p[lang="de"]{
+  text-align: left;
+
+}
+.crazy+p{
+  direction: rtl;
+}

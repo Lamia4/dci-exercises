@@ -1,0 +1,24 @@
+div {
+
+height: 200px;
+width: 200px;
+}
+
+.box1 {
+    background-color: yellow;
+    border: 10px solid rgb(241, 133, 133);
+}
+.box2, .box3, .box4 {
+    background: red;
+    border: 10px solid red;
+    margin-top: 2oopx;
+    padding: 0;
+
+}
+
+.box5 {
+    position: relative;
+    bottom: 210px;
+    left: 210px;
+    background-color: yellow;
+}

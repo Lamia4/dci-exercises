@@ -1,0 +1,28 @@
+<style>
+table,
+tr,
+td,
+th {
+    text-align: left;
+}
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+th,
+td {
+    padding: 10px;
+    border-left: 10px solid gray;
+}
+tbody tr {
+    text-align: center;
+}
+tbody tr:nth-child(even) :first-child{
+border-left: 10px solid lime;
+}
+tbody tr:nth-child(odd) :first-child{
+border-left: 10px solid tomato;
+}
+</style>

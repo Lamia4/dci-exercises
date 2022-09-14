@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper {
+            display: flex;
+            align-items: stretch;
+            border: 2px solid hotpink;
+            height: 100vh;
+        }
+        div {
+            border: 2px dotted chartreuse;
+            width: 20%;
+        }
+        .strobe_1 {
+            background-color: yellow;
+        }
+        .strobe_2{
+            background-color: springgreen;
+        }
+        .strobe_3{
+            background-color: tomato;
+        }
+        .strobe_4{
+            background-color: steelblue;
+        }
+        .strobe_5{
+            background-color: slateblue;
+        }
+        .strobe_1:hover, .strobe_2:hover, .strobe_3:hover, .strobe_4:hover, .strobe_5:hover{
+            animation: sari 4s infinite;
+        }
+        @keyframes sari {
+            0%{
+                opacity: 100%;
+            }
+            25%{
+                opacity: 60%;
+            }
+            50%{
+                opacity: 30%;
+            }
+            75%{
+               opacity: 70%;
+            }
+            100%{
+                opacity: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="strobe_1"></div>
+        <div class="strobe_2"></div>
+        <div class="strobe_3"></div>
+        <div class="strobe_4"></div>
+        <div class="strobe_5"></div>
+    </section>
+</body>
+</html>

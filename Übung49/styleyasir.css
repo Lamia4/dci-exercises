@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 8vh;
+    background-color: cadetblue;
+    color: white;
+    line-height: 7vh;
+    padding-left: 20px;
+}
+
+fieldset {
+    margin: 20px 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 45%;
+    float: left;
+}
+
+fieldset *:not(legend) {
+    width: 100%;
+    margin: 5px 0;
+}
+fieldset .inline {
+    width: auto;
+    margin: 5px 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger;
+    color: skyblue;
+    text-shadow: 1px 1px 3px rgb(30, 50, 55), -1px -1px 3px rgb(30, 50, 55);
+}
+
+button {
+    margin-left: 20px;
+    background-color: lime;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: monospace;
+}

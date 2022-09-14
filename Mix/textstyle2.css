@@ -1,0 +1,57 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Texturina:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    font-family:'Texturina', serif;
+    color: rgb(85, 40, 114);
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+}
+
+h1, h3 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: 50px;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 120px;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: capitalize;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}

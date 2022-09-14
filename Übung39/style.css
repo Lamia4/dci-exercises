@@ -1,0 +1,51 @@
+.container div:nth-child(1) {
+    background-color: rgb(170, 38, 170);
+    
+}
+
+.container div:nth-child(2) {
+    background-color: rgb(231, 122, 231);
+    
+}.container div:nth-child(3) {
+    background-color: rgb(96, 88, 209);
+    
+}.container div:nth-child(4) {
+    background-color: rgb(54, 139, 37);
+    
+}.container div:nth-child(5) {
+    background-color: yellow;
+    
+}
+.container div:nth-child(6) {
+    background-color: orange;
+    
+}.container div:nth-child(7) {
+    background-color: rgb(214, 61, 61);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.container div {
+    flex-basis: 200px;
+}
+
+@media (min-width: 601px){
+    .container {
+        flex-direction: row;
+    }
+    .container div:nth-child(1), 
+    .container div:nth-child(2),
+    .container div:nth-child(3),
+     {
+    
+
+        
+    }
+    }
+        
+    

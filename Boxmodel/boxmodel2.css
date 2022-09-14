@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    color: white;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(82, 42, 121, 0.637);
+}
+
+.green {
+    background-color: green;
+    height: 700px;
+    float: left;
+    width: 25%;
+    
+}
+.red {
+    height: 700px;
+    background-color: red;
+    float: right;
+    width: 75%;
+}
+footer {
+    height: 100px;
+    float: left;
+    background-color: purple;
+    width: 100%;
+
+}
+
